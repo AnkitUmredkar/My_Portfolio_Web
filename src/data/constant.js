@@ -170,9 +170,11 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://images.seeklogo.com/logo-png/32/1/postman-logo-png_seeklogo-321406.png",
+        "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" 
+        // "https://images.seeklogo.com/logo-png/32/1/postman-logo-png_seeklogo-321406.png",
       },
       // {
+
       //   name: "Adobe XD",
       //   image:
       //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
