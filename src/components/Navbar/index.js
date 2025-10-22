@@ -143,6 +143,9 @@ const MobileMenu = styled.div`
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1" : "0")};
+
+
+  
 `;
 
 
