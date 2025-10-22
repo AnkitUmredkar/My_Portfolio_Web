@@ -145,7 +145,8 @@ const MobileMenu = styled.div`
   z-index: ${({ isOpen }) => (isOpen ? "1" : "0")};
 `;
 
-const MobileMenuLink = styled(LinkR)`
+
+const MobileMenuLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
@@ -195,7 +196,7 @@ const Navbar = () => {
           <GithubButton href="https://github.com/AnkitUmredkar/" target="_blank">Github Profile</GithubButton>
         </ButtonContainer>
       </NavConatiner>
-      {isOpen && (
+      {isOpen && 
         <MobileMenu isOpen={isOpen}>
           <MobileMenuLink
             href="#about"
@@ -244,14 +245,13 @@ const Navbar = () => {
               color: "white",
               width: "max-content",
             }}
-            href="/"
-            target="_blank"
+            href="https://github.com/AnkitUmredkar/" target="_blank"
           >
             {" "}
             Github
           </GithubButton>
         </MobileMenu>
-      )}
+      }
     </Nav>
   );
 };
